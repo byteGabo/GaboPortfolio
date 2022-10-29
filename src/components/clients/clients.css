@@ -1,0 +1,16 @@
+.clients__container{
+    display: flex;
+    justify-content: center;
+    justify-items:  center;
+    flex-wrap: wrap;
+}
+
+.client__img{
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+    padding: 0;
+}
+
+
+
