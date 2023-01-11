@@ -5,6 +5,7 @@ import circus from "../../assets/logos/circus.png";
 import gogreen from "../../assets/logos/gogreen.png";
 import pinche from "../../assets/logos/pinche.png";
 import taquisimo from "../../assets/logos/taquisimo.png";
+import leici from "../../assets/leicilogo.png"
 
 
 
@@ -30,6 +31,9 @@ export const Clients = () => {
             </div>
             <div>
                 <img src={taquisimo} alt="" className="client__img"/>
+            </div>
+            <div>
+                <img src={leici} alt="" className="client__img"/>
             </div>
       </div>
     </section>
