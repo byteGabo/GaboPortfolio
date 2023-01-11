@@ -153,10 +153,15 @@ img{
 
 .button:hover{
   background-color: var(--title-color-dark);
+  color:  white;
 }
 
 .button__icon{
   margin-left: var(--mb-0-5);
+}
+
+.button:hover .button__icon{
+  color: white;
 }
 
 .button--flex{
