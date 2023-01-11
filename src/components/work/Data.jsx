@@ -4,6 +4,7 @@ import Work3 from "../../assets/work3.png"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/work6.jpg"
+import Work7 from "../../assets/leici.png"
 
 export const projectsData = [
     {
@@ -44,9 +45,16 @@ export const projectsData = [
     {
         id:1,
         image: Work6,
-        title: 'Branding | Taquisimo',
+        title: 'Branding | Taquísimo',
         category: 'branding',
         link: 'https://www.behance.net/gallery/116716551/Manual-de-Identidad-Taquisimo',
+    },
+    {
+        id:1,
+        image: Work7,
+        title: 'Branding | LEICI',
+        category: 'branding',
+        link: 'https://www.behance.net/gallery/160218749/Leici-Branding',
     },
 ]
 
