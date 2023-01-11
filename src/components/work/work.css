@@ -51,15 +51,19 @@
     display: flex;
     align-items: center;
     column-gap: 01.25rem;
+    
 }
 
 .work__button-icon{
     font-size: 1rem;
     transition: 0.4s;
+   
 }
 
 .work__button:hover .work__button-icon{
     transform: translateX(0.25rem);
+    background-color: #191919;
+    color: white;
 }
 
 .active-work{
