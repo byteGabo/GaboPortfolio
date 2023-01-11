@@ -18,11 +18,9 @@ export const About = () => {
 
           <p className="about__description">
             Hi, I'm Gabriel, I currently have a closed curriculum in Systems
-            Engineering, from Universidad de Occidente in Quetzaltenango,
-            Guatemala. I have work experience in administrative and financial
-            areas. As well as in graphic design and digital advertising, focused
-            on social networks. I am creative, self-taught, aptitude and
-            leadership attitude, social sense, ethical and responsible.
+            Engineering, from Universidad de Occidente in Guatemala. I have work
+            experience in administrative and financial areas. As well as in
+            graphic design and web development, focused on social networks.
           </p>
 
           <a download="" href={CV} className="button button--flex">
