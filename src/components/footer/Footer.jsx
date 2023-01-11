@@ -53,7 +53,7 @@ export const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Gabriel Chaves. All rights reserved
+          &#169; Gabriel Chaves. Copyright-Free
         </span>
       </div>
     </footer>
