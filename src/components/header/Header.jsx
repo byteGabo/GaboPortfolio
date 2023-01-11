@@ -11,6 +11,11 @@ export const Header = () => {
   /*=============Toggle Menu=============*/
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  const closeMenu = () =>{
+    showMenu(false);
+  }
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -23,7 +28,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#home"
-                onClick={() => setActiveNav("#home")}
+                onClick={() => {setActiveNav("#home"); closeMenu();}}
                 className={
                   activeNav === "#home" ? "nav__links active-link" : "nav__links"
                 }
@@ -35,7 +40,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#about"
-                onClick={() => setActiveNav("#about")}
+                onClick={() => {setActiveNav("#about"); closeMenu();}}
                 className={
                   activeNav === "#about"
                     ? "nav__links active-link"
@@ -49,7 +54,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                onClick={() => {setActiveNav("#skills"); closeMenu();}}
                 className={
                   activeNav === "#skills"
                     ? "nav__links active-link"
@@ -63,7 +68,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#services"
-                onClick={() => setActiveNav("#services")}
+                onClick={() => {setActiveNav("#services"); closeMenu();}}
                 className={
                   activeNav === "#services"
                     ? "nav__links active-link"
@@ -77,7 +82,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                onClick={() =>{setActiveNav("#portfolio"); closeMenu();}}
                 className={
                   activeNav === "#portfolio"
                     ? "nav__links active-link"
@@ -91,7 +96,7 @@ export const Header = () => {
             <li className="nav__item">
               <a
                 href="#contact"
-                onClick={() => setActiveNav("#contact")}
+                onClick={() => {setActiveNav("#contact"); closeMenu();}}
                 className={
                   activeNav === "#contact"
                     ? "nav__links active-link"
