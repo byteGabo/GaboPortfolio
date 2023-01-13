@@ -5,6 +5,7 @@ import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/work6.jpg"
 import Work7 from "../../assets/leici.png"
+import Work8 from "../../assets/sanblasthumbail.png"
 
 export const projectsData = [
     {
@@ -55,6 +56,13 @@ export const projectsData = [
         title: 'Branding | LEICI',
         category: 'branding',
         link: 'https://www.behance.net/gallery/160218749/Leici-Branding',
+    },
+    {
+        id:1,
+        image: Work8,
+        title: 'Branding | SanBlas',
+        category: 'branding',
+        link: 'https://www.behance.net/gallery/161258477/San-Blas-Branding',
     },
 ]
 
