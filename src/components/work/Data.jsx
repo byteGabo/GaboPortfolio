@@ -6,6 +6,8 @@ import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/work6.jpg"
 import Work7 from "../../assets/leici.png"
 import Work8 from "../../assets/sanblasthumbail.png"
+import Work9 from "../../assets/work9.png"
+import Work10 from "../../assets/work10.png"
 
 export const projectsData = [
     {
@@ -63,6 +65,20 @@ export const projectsData = [
         title: 'Branding | SanBlas',
         category: 'branding',
         link: 'https://www.behance.net/gallery/161258477/San-Blas-Branding',
+    },
+    {
+        id:1,
+        image: Work9,
+        title: 'Appointments Project',
+        category: 'web',
+        link: 'https://github.com/byteGabo/ClinicaTOS2',
+    },
+     {
+        id:1,
+        image: Work10,
+        title: 'Hoog Website',
+        category: 'web',
+        link: 'https://github.com/byteGabo/HoogNewWebsite',
     },
 ]
 
