@@ -2,7 +2,6 @@ import React  from "react";
 import "./clients.css"
 import bode from "../../assets/logos/bode.png";
 import circus from "../../assets/logos/circus.png";
-import gogreen from "../../assets/logos/gogreen.png";
 import pinche from "../../assets/logos/pinche.png";
 import taquisimo from "../../assets/logos/taquisimo.png";
 import leici from "../../assets/leicilogo.png"
@@ -23,9 +22,6 @@ export const Clients = () => {
             </div>
             <div>
                 <img src={circus} alt="" className="client__img"/>
-            </div>
-            <div>
-                <img src={gogreen} alt="" className="client__img"/>
             </div>
             <div>
                 <img src={pinche} alt="" className="client__img"/>
