@@ -40,13 +40,6 @@ export const projectsData = [
     },
     {
         id:1,
-        image: Work5,
-        title: 'Social Media Post | Go Green Xela',
-        category: 'post design',
-        link: 'https://www.behance.net/gallery/152912551/Social-Media-GoGreen-Xela',
-    },
-    {
-        id:1,
         image: Work6,
         title: 'Branding | Taquísimo',
         category: 'branding',
